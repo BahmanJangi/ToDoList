@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My_To_Do_List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My To Do List</h1>
+      <input
+        type="text"
+        id="inputVal"
+        class="inputVal"
+        placeholder="Enter Your Tasks..."
+      />
+      <span class="btn" id="addBtn" onclick="addNewElement()">Add</span
+      >
+      <span class="clearListBtn btn" onclick="clearList()">Clear</span
+      >
+    </header>
+    <main>
+      <ul id="MyUl">
+        <li>Pray</li>
+        <li>Go to library</li>
+        <li>Read a book to learning JavaScript</li>
+        <li>Visit Doctor</li>
+        <li>Play football</li>
+      </ul>
+    </main>
+    <script src="js/javaScript.js"></script>
+  </body>
+</html>
